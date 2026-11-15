@@ -73,7 +73,7 @@ python3 scripts/verify-databases.py
 - [기본 권한](https://www.postgresql.org/docs/17/sql-alterdefaultprivileges.html): 마이그레이션 계정이 만드는 새 객체 권한.
 - [pg_hba.conf](https://www.postgresql.org/docs/17/auth-pg-hba-conf.html): 접속 인증 규칙. 인증과 DB 권한은 별도 확인.
 
-[작업 6 해설](<../../docs/work-notes/작업 6. 두 DB와 서비스별 저장 구조.md>) · [단계별 계획](<../../가상 제조공장 실시간 통합 관제 시스템 - 단계별 개발 계획.md>)
+[작업 6 해설](<../../docs/work-notes/작업 6. 두 DB와 서비스별 저장 구조.md>)
 
 ## S05 추가 구조와 최소 확인
 

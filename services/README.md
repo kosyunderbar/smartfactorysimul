@@ -56,7 +56,7 @@ Flyway는 `classpath:db/migration`을 사용하고 누락된 경로는 오류, c
 
 HTTP 주소/포트는 서비스별 `INGESTION_HTTP_ADDRESS/PORT`, `OPERATIONS_HTTP_ADDRESS/PORT`로 재정의할 수 있다. 기본은 localhost이고 Compose는 0.0.0.0의 컨테이너 주소를 사용하고 호스트 공개 포트는 127.0.0.1로 제한한다. readiness는 /readyz, liveness는 /livez다. 로그에는 앱 이름을 붙인다. 설정/비밀번호 전체를 출력하는 진단은 넣지 않았다. 수집 TCP의 기본 주소는 127.0.0.1:9090이며 INGESTION_TCP_ADDRESS/PORT로 변경한다. 일반 수집 readyz는 DB+TCP+전달 worker 실행 여부를 확인한다. 상대 관제 중단은 이 준비 실패 대신 outbox 대기/재시도로 드러낸다. 내부 업무 API는 S04에서 구현했다. INGESTION_DIAGNOSTIC_URL로 내부 수집 진단 기본 주소를 지정하며 S05에서 내부 delivery-status를 구현했다.
 
-[고정 버전과 다운로드 근거](../docs/development/실행 버전과 빌드 기준.md) · [작업 5 해설](<../docs/work-notes/작업 5. 두 Spring 앱의 실행 기반.md>) · [개발 계획](<../가상 제조공장 실시간 통합 관제 시스템 - 단계별 개발 계획.md>)
+[고정 버전과 다운로드 근거](../docs/development/실행 버전과 빌드 기준.md) · [작업 5 해설](<../docs/work-notes/작업 5. 두 Spring 앱의 실행 기반.md>)
 
 ## 전체 기동과 Python/Vue
 
