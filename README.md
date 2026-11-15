@@ -1,6 +1,6 @@
 # 가상 제조공장 실시간 통합 관제 시스템
 
-현대오토에버 OT 시스템 개발 및 운영 직무 지원을 위한 프로젝트입니다. 독립 셀·AGV/AMR의 실제 데이터 관측, 스마트태그·버퍼·품질·알람을 Spring/Python/Vue의 소규모 MSA로 구현했습니다.
+독립 셀·AGV/AMR의 실제 데이터 관측, 스마트태그·버퍼·품질·알람을 Spring/Python/Vue의 소규모 MSA로 구현했습니다.
 
 저장소: [kosyunderbar/smartfactorysimul](https://github.com/kosyunderbar/smartfactorysimul). 다른 컴퓨터에서 시작할 때는 [clone·실행·개발 안내](<가상 제조공장 실시간 통합 관제 시스템 - 다른 컴퓨터 실행·개발 안내.md>)를 따릅니다.
 
